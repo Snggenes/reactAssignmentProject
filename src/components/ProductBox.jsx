@@ -21,8 +21,8 @@ export default function ProductBox({ item }) {
       <img
         src={
           favourites.includes(item.id)
-            ? "../../assets/heart-solid.svg"
-            : "../../assets/heart-regular.svg"
+            ? "/heart-solid.svg"
+            : "/heart-regular.svg"
         }
         className="h-6 ml-auto cursor-pointer"
         onClick={() => {

@@ -30,8 +30,8 @@ export default function Products() {
       <img
         src={
           favourites.includes(Number(id))
-            ? "../../assets/heart-solid.svg"
-            : "../../assets/heart-regular.svg"
+            ? "/heart-solid.svg"
+            : "/heart-regular.svg"
         }
         className="h-6 ml-auto cursor-pointer"
         onClick={() => {
